@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ssm_wuhaijun:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ssm_wuhaijun_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ssm_wuhaijun/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ssm_wuhaijun" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.18.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
